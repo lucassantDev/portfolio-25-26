@@ -1,9 +1,60 @@
 .section-text-image{
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: var(--color05); */
+}
+
+.h1-firstSection{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 30px 0;
+    color: var(--color02);
+}
+
+.gradient-text {
+  background: linear-gradient(-120deg, var(--color01), var(--color02));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .button-media{
     width: 300px;
     padding: 10px;
+    background-color: #FFF;
+    border: 2px solid var(--color00);
+    color: var(--color00);
+}
+
+.button-media:hover{
+    cursor: pointer;
+}
+
+.github-button, .linkedin-button{
+    transition: 0.2s ease-in-out;
+
+}
+
+.github-button:hover{
+    background-color: #24292F;
+    color: #FFF;
+    border: 2px solid #24292F;
+    transition: 0.2s ease-in-out;
+}
+
+.linkedin-button:hover{
+    background-color: #0A66C2;
+    color: #FFF;
+    border: 2px solid #0A66C2;
+    transition: 0.2s ease-in-out;
+
 }

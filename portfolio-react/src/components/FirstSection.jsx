@@ -1,6 +1,8 @@
 import '../style/FirstSection.css'
+// import lucassantDev from 'lucassantDev.png'
 
 function FirstSection(){ 
+
 
     const githubLink = ()=>{
         window.open('https://github.com/lucassantDev', 'target=blank')
@@ -12,15 +14,17 @@ function FirstSection(){
 
     return  <>
         <section className="section-text-image">
-            <h1>Olá</h1>
+            <h1 className='h1-firstSection gradient-text'>Um estudante curioso  <br />pelo mundo da tecnologia!</h1>
+
+            {/* <img src={lucassantDev} alt="" /> */}
             
-            <div>
-                <button className='button-media' onClick={linkedinLink}>
+            <div className='buttons'>
+                <div className='button-media linkedin-button' onClick={linkedinLink}>
                     Linkedin
-                </button>
-                <button className='button-media' onClick={githubLink}>
+                </div>
+                <div className='button-media github-button' onClick={githubLink}>
                     Github
-                </button>
+                </div>
             </div>
         </section>
 

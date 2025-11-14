@@ -8,7 +8,7 @@ function Skills(){
                 <h1>Skills</h1>
                 <div className='div-stack'>
                     <div>
-                        <img src={js} alt="imagem javascript" />
+                        <img src='' alt="imagem javascript" />
                         Javascript
                     </div>
                     <div>

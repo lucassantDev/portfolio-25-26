@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import Redes from './Redes'
-import AboutMe from './AboutMe'
-import Skills from './Skills'
-import Projects from './Projects'
-import Footer from './Footer'
+import FirstSection from './components/FirstSection.jsx'
+import AboutMe from './components/AboutMe.jsx'
+import Skills from './components/Skills.jsx'
+import Projects from './components/Projects.jsx'
+import Footer from './components/Footer.jsx'
 
 
 
@@ -12,10 +12,13 @@ function App() {
 
   return (
     <>
-      <AboutMe/>
+      <FirstSection/>
       <Skills/>
-      <Projects/>
       <Footer/>
+      {/* <AboutMe/>
+     
+      <Projects/>
+      <Footer/> */}
     </>
   )
 }

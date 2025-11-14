@@ -5,7 +5,7 @@ function Footer(){
         <>
             <footer className="footer">
                 <p>
-                    © 2025 - lucassantDev portfólio
+                    © 2025 - lucassantDev Portfólio
                 </p>
             </footer>
         
