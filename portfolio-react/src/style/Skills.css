@@ -9,8 +9,28 @@
 }
 
 .div-stack{
-    border: 1px solid red;
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
+    margin: 40px 0 0 0 ;
+}
+
+.div-stack img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 0 0 15px 0;
+}
+
+.stack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.figma-icon{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
 }
