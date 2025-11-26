@@ -1,21 +1,21 @@
 .section-aboutme{
     width: 100%;
     height: 100vh;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-direction: column;
+    background-color: var(--color05);
+    color: #FFFFFF;
 }
 
 .aboutme-h1{
     width: fit-content;
     text-align: center;
-    border: 1px solid red;
+    margin: 0 0 20px 0;
 }
 
 .aboutme-p{
-    border: 1px solid red;
-    width: fit-content;
-    font-size: 1.2rem;
+    width: 60%;
+    font-size: 1.7rem;
 }
