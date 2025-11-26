@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <FirstSection/>
+      <AboutMe/>
       <Skills/>
       <Footer/>
       {/* <AboutMe/>
