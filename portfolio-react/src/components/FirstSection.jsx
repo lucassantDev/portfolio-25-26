@@ -1,6 +1,6 @@
 import '../style/FirstSection.css'
 import { LinkedinIcon, GithubIcon } from 'lucide-react'
-import lucassantDev from '../assets/img/lucassantana.jpg'
+import lucassantDev from '../assets/img/lucassant-02.jpg'
 
 function FirstSection(){ 
 
@@ -38,4 +38,4 @@ function FirstSection(){
   
 }
 
-export default FirstSection
+export default FirstSection;
