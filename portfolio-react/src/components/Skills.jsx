@@ -10,7 +10,7 @@ function Skills(){
         <>
             <section className="section-skills">
                 <h1>Skills</h1>
-                <div className='div-stack'>
+                <div className='div-stack '>
                     <div className='stack'>
                         <img src={js} alt="imagem javascript" />
                         Javascript
