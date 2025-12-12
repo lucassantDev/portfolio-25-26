@@ -16,10 +16,6 @@ function App() {
       <AboutMe/>
       <Skills/>
       <Footer/>
-      {/* <AboutMe/>
-     
-      <Projects/>
-      <Footer/> */}
     </>
   )
 }
