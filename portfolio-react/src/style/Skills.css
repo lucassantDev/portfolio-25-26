@@ -21,8 +21,6 @@
     justify-content: center;
     margin: 10px 0 0 0 ;
     padding-block: 10px;
-
-    
 }
 
 .div-stack img{
@@ -38,7 +36,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 400px;
+    width: 450px;
+    max-width: 650px;
 
     font-weight: bold;
     font-size: 1.3rem;
@@ -48,4 +47,21 @@
     width: 30px;
     height: 30px;
     object-fit: cover;
+}
+
+@media screen and (min-width: 320px) and (max-width: 490px)  {
+
+    .section-skills h1{
+        font-size: 1.3rem;
+    }
+
+    .div-stack{
+        width: 90%;
+    }
+
+    .stack{
+        width: 190px;
+        font-size: 0.9rem;
+    }
+    
 }
