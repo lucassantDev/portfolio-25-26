@@ -5,7 +5,8 @@ function Projects(){
     return(
         <>
             <section className='section-projects'>
-                <div>
+                <h1>Projetos</h1>
+                <div className='div-projeto'>
                     <h2>Lista de compras</h2>
                     <img src={listaDeCompras} alt="" />
                 </div>
