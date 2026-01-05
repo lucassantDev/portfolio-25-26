@@ -7,3 +7,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.div-projeto{
+    border: 1px solid red;
+}
