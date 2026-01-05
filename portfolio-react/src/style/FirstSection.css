@@ -40,7 +40,7 @@ img{
     width: 300px;
     padding: 10px;
     background-color: #FFF;
-    border: 2px solid var(--color00);
+    /* border: 2px solid var(--color00); */
     color: var(--color00);
     display: flex;
     align-items: center;
@@ -56,24 +56,28 @@ img{
 
 }
 
-.github-button:hover{
+.linkedin-button{
+    background-color: #0A66C2;
+    color: #FFF;
+}
+
+.linkedin-button:hover{
+    background-color: #063869;
+}
+
+.github-button{
     background-color: #24292F;
     color: #FFF;
-    border: 2px solid #24292F;
-    transition: 0.2s ease-in-out;
 }
+
+.github-button:hover{
+    background-color: #353a3f;
+}
+
+
 
 .github-button:hover .icon {
     color: #FFF;
-}
-
-
-.linkedin-button:hover{
-    background-color: #0A66C2;
-    color: #FFF;
-    border: 2px solid #0A66C2;
-    transition: 0.2s ease-in-out;
-
 }
 
 
