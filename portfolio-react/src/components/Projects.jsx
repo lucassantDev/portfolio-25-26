@@ -8,7 +8,7 @@ function Projects(){
                 <h1>Projetos</h1>
                 <div className='div-projeto'>
                     <h2>Lista de compras</h2>
-                    <img src={listaDeCompras} alt="" />
+                    <img src={listaDeCompras} alt="imagem do projeto lista de compras" className='projeto-01'/>
                 </div>
                 <div></div>
                 <div></div>
