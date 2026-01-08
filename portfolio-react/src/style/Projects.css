@@ -13,11 +13,12 @@ h2{
     margin: 20px 0 10px 0;
 }
 
-.projeto-01{
+.projeto{
     transition: .3s;
 }
 
-.projeto-01:hover{
+
+.projeto:hover{
     filter: blur(2px);
     transition: .3s;
 }
@@ -30,7 +31,7 @@ h2{
         flex-direction: column;
     }
       
-   .projeto-01{
+   .projeto{
         width: 90%;
         object-fit: cover;
    }
