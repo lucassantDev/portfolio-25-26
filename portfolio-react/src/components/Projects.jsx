@@ -1,5 +1,6 @@
 import '../style/Projects.css'
 import listaDeCompras from '../assets/img/projeto-listaDeCompras.png'
+import agrosense from '../assets/img/projeto-agrosense.png'
 
 function Projects(){
     return(
@@ -12,7 +13,7 @@ function Projects(){
                 </div>
                 <div className='div-projeto'>
                     <h2>Agrosense</h2>
-                    <img src="" alt="" className='projeto' />
+                    <img src={agrosense} alt="imagem do projeto agrosen" className='projeto' />
                 </div>
                 <div></div>
             </section>
