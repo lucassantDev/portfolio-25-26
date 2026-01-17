@@ -15,34 +15,58 @@ h2{
     margin: 0 0 0 10px;
 }
 
-.arrow{
-    width: 25px;
-    height: 25px;
-    border: 1px solid red;
-
-    margin: 0 30px 0 0;
-    cursor: pointer;
-}
-
 .div-project{
+    height: fit-content;
+    padding: 10px;
     margin: 30px 0 0 0 ;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .project{
     transition: .3s;
     border: 1px solid var(--color01);
+    border-radius: 0;
+    width: 80%;
+    max-width: 1000px;
 }
 
 .about-project{
     border: 1px solid var(--color01);
-    height: 50px;
+    height: fit-content;
+    padding-block: 15px;
+    width: 80%;
+    max-width: 1000px;
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
 }
 
+.button-acess-projects{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 10px;
+}
 
+.button-acess-projects button{
+    padding: 10px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: var(--color01);
+
+    cursor: pointer;
+    margin: 10px 0 0 0;
+}
+
+.about-project > p{
+    width: 100%;
+    margin: 10px 0 0 10px;
+}
 
 
 @media screen and (min-width: 320px) and (max-width: 490px) {    
