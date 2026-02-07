@@ -23,12 +23,12 @@ function FirstSection(){
             <div className='buttons'>
                 <div className='button-media linkedin-button' onClick={linkedinLink}>
                     Linkedin
-                    <LinkedinIcon  size={20} className="icon"/>
+                    <LinkedinIcon className="icon"/>
 
                 </div>
                 <div className='button-media github-button' onClick={githubLink}>
                     Github
-                    <GithubIcon  size={20} className='icon'/>
+                    <GithubIcon  className='icon'/>
                 </div>
             </div>
         </section>

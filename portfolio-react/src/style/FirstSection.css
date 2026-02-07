@@ -120,3 +120,37 @@ img{
         color: #FFF;
     }
 }
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+     .section-text-image{
+        width: 100%;
+        max-width: 1920px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 900px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .button-media{
+        width: 350px;
+        max-width: 420px;
+        height: 70px;
+    }
+
+    .github-button, .linkedin-button{
+        font-size: 1.5rem;
+    }
+
+    .icon{
+        font-size: 1.5rem;
+    }
+
+}
