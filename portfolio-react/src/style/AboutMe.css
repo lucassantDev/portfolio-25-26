@@ -31,3 +31,19 @@
         text-align: center;
     }
 }
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    .section-aboutme{
+        height: 110vh;
+    }
+
+    .aboutme-h1{
+        font-size: 4rem;
+    }
+    
+    .aboutme-p{
+        font-size: 2rem;
+        width: 60%;
+        text-align: center;
+    }
+}
