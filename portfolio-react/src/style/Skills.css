@@ -65,3 +65,16 @@
     }
     
 }
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+     .section-skills h1{
+        font-size: 4rem;
+    }
+
+    .div-stack img{
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        margin: 0 0 15px 0;
+    }
+}

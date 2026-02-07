@@ -100,3 +100,19 @@ h2{
         gap: 15px;
     }
 }
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 2.3rem;
+        color: var(--color01);
+        margin: 0 0 0 10px;
+    }
+
+    .about-project > p{
+        font-size: 1.2rem;
+    }
+}
