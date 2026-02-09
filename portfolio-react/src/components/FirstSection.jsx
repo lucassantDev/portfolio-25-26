@@ -16,9 +16,10 @@ function FirstSection(){
 
     return  <>
         <section className="section-text-image">
+            <img src={lucassantDev} alt="imagem de Lucas Santana" />
             <h1 className='h1-firstSection gradient-text'>Um estudante curioso  <br />pelo mundo da tecnologia!</h1>
 
-            <img src={lucassantDev} alt="imagem de Lucas Santana" />
+            {/* <img src={lucassantDev} alt="imagem de Lucas Santana" /> */}
             
             <div className='buttons'>
                 <div className='button-media linkedin-button' onClick={linkedinLink}>
