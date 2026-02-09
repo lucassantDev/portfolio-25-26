@@ -34,13 +34,6 @@ img{
     transition: 0.7s;
 }
 
-
-/* .gradient-text {
-  background: linear-gradient(-120deg, var(--color01), var(--color02));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
 .buttons{
     display: flex;
     justify-content: space-evenly;
@@ -54,7 +47,6 @@ img{
     width: 300px;
     padding: 10px;
     background-color: #FFF;
-    /* border: 2px solid var(--color00); */
     color: var(--color00);
     display: flex;
     align-items: center;
@@ -67,28 +59,22 @@ img{
 
 .github-button, .linkedin-button{
     transition: 0.2s ease-in-out;
+    background-color: #FFF;
+    color: #063869;
+    font-weight: 500;
+    border: 2px solid var(--color05);
 
-}
-
-.linkedin-button{
-    background-color: #0A66C2;
-    color: #FFF;
 }
 
 .linkedin-button:hover{
-    background-color: #063869;
-}
-
-.github-button{
-    background-color: #24292F;
+    background-color: #0A66C2;
     color: #FFF;
 }
 
 .github-button:hover{
     background-color: #353a3f;
+    color: #FFF;
 }
-
-
 
 .github-button:hover .icon {
     color: #FFF;
@@ -136,7 +122,7 @@ img{
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
-     .section-text-image{
+    .section-text-image{
         width: 100%;
         max-width: 1920px;
         height: 110vh;
@@ -151,6 +137,10 @@ img{
         height: 350px;
         object-fit: cover;
         border-radius: 5px;
+    }
+
+    .h1-firstSection{
+        font-size: 4rem;
     }
 
     .button-media{
