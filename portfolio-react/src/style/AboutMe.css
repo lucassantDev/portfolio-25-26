@@ -13,11 +13,13 @@
     width: fit-content;
     text-align: center;
     margin: 0 0 20px 0;
+    font-family: var(--fontTitle);
 }
 
 .aboutme-p{
     width: 60%;
     font-size: 1.7rem;
+   
 }
 
 @media screen and (min-width: 320px) and (max-width: 490px) {    

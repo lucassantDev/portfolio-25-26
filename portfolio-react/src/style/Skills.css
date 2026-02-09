@@ -11,6 +11,7 @@
 .section-skills h1{
     color: #FFFFFF;
     margin: 10px 0 0 0 ;
+    font-family: var(--fontTitle);
 }
 
 .div-stack{
