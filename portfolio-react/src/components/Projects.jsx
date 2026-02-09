@@ -31,30 +31,7 @@ function Projects(){
             <section className='section-projects'>
                 <h1>Projetos</h1>
 
-                <div className='div-project'>
-                    <img src={listaDeCompras} alt="imagem do projeto lista de compras" className='project'/>
-                    <div className='about-project'>
-                        <h2>Lista de compras</h2>
-                        <p>Projeto desenvolvido através de aulas do curso full-stack da Rocketseat, trabalhando <br /> principalmente com a manipulação do DOM.</p>
-                        <div className='button-acess-projects'>
-                            <button className="acess" onClick={() => repository('lista')}>repositório</button>
-                            <button className="acess" onClick={() => project(0)}>projeto</button>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className='div-project'>
-                    <img src={agrosense} alt="imagem do projeto agrosen" className='project' />
-                    <div className='about-project'>
-                        <h2>Agrosense</h2>
-                         <p>Projeto  React desenvolvido na faculdade, onde criei meus primeiros componentes, <br /> rotas com router e utilização da MUI</p>
-                        <div className='button-acess-projects'>
-                            <button className="acess" name='agrosense' onClick={() => repository('agrosense')}>repositório</button>
-                            <button className="acess" onClick={() => project(1)}>projeto</button>
-                        </div>
-                    </div>
-                </div>
+                {/* refatorando */}
 
                 <div></div>
             </section>
