@@ -64,20 +64,31 @@ h2{
 
 
 .button-acess-projects{
-    width: 25%;
+    width: 40%;
+    max-width: 1400px;
     display: flex;
-    justify-content: space-between;
-    margin: 0 0 0 10px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.button-acess-projects button{
+.button-acess-projects a{
     padding: 10px;
+    width: 225px;
     font-size: 1rem;
     color: #FFFFFF;
     background-color: var(--color01);
+    border-radius: 25px;
+
+    text-decoration: none;
+    text-align: center;
 
     cursor: pointer;
-    margin: 10px 0 0 0;
+    transition: .2s;
+}
+
+.button-acess-projects a:hover{
+    background-color: var(--color05);
+    transition: .2s;
 }
 
 .about-project > p{
@@ -85,6 +96,27 @@ h2{
     margin: 10px 0 0 10px;
 }
 
+.imageMap{
+    width: 400px;
+    height: 300px;
+    border: 2px solid var(--color01);
+    border-radius: 25px;
+}
+
+.displayMap{
+    width: 70%;
+    height: fit-content;
+    border: 2px solid var(--color01);
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    padding-block: 10px;
+    margin: 25px 0 25px 0;
+}
 
 @media screen and (min-width: 320px) and (max-width: 490px) {    
     .div-project{
