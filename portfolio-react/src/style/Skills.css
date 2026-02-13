@@ -9,10 +9,9 @@
 }
 
 .section-skills h1{
-    color: var(--color03);
+    color: #FFFFFF;
     margin: 10px 0 0 0 ;
     font-family: var(--fontTitle);
-    
 }
 
 .div-stack{
@@ -64,7 +63,7 @@
     
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1920px) {
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
      .section-skills h1{
         font-size: 4rem;
     }

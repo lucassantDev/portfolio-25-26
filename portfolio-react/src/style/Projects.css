@@ -56,7 +56,6 @@ h2{
     gap: 10px;
 }
 
-
 .button-acess-projects{
     width: 75%;
     max-width: 1400px;
@@ -94,14 +93,14 @@ h2{
 .imageMap{
     width: 400px;
     height: 300px;
-    border: 2px solid var(--color01);
+    border: 2px solid var(--color00);
     border-radius: 25px;
 }
 
 .displayMap{
     width: 50%;
     height: fit-content;
-    border: 1.5px solid var(--color01);
+    border: 1.5px solid var(--color00);
     border-radius: 25px;
 
     display: flex;
@@ -109,16 +108,21 @@ h2{
     align-items: center;
     flex-direction: column;
 
-    padding-block: 10px;
+    padding-block: 25px;
     margin: 25px 0 25px 0;
 }
 
 .displayMap h3{
     font-size: 1.4rem;
-    color: var(--color00);
+    color: var(--color05);
     text-align: center;
     width: 60%;
     margin: -10px 0 20px 0;
+}
+
+.displayMap h2{
+    margin: 0 0 10px 0;
+    color: var(--color05);
 }
 
 @media screen and (min-width: 320px) and (max-width: 490px) {    
@@ -162,6 +166,35 @@ h2{
     .button-acess-projects{
         flex-direction: column;
         margin: 25px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 491px) and (max-width: 1000px) {
+    .imageMap{
+        width: 320px;
+        height: 300px;
+    }
+
+    .displayMap{
+        width: 85%;
+        height: fit-content;
+        border: 1.5px solid var(--color01);
+        border-radius: 25px;
+
+        padding-block: 15px;
+        margin: 25px 0 25px 0;
+    }
+
+    .displayMap h3{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .button-acess-projects{
+       gap: 20px;
+    }
+    .button-acess-projects a{
+       width: 60%;
     }
 }
 

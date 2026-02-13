@@ -110,15 +110,12 @@ img{
         border: none;
     }
 
-    .linkedin-button{
-        background-color: #0A66C2;
-        color: #FFF;
+    .linkedin-button, .github-button{
+        border: 2px solid var(--color05);
+        background-color: #FFF;
+        color: #063869;
     }
 
-    .github-button{
-        background-color: #24292F;
-        color: #FFF;
-    }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1920px) {
