@@ -1,5 +1,3 @@
-
-
 .section-skills{
     width: 100%;
     height: 100vh;
@@ -11,7 +9,7 @@
 }
 
 .section-skills h1{
-    color: #FFFFFF;
+    color: var(--color03);
     margin: 10px 0 0 0 ;
     font-family: var(--fontTitle);
     
