@@ -1,13 +1,16 @@
 import '../style/Projects.css'
 import { useState } from 'react'
 
+import listaCompras from '../assets/img/projeto-listaDeCompras.png';
+import Agrosense from '../assets/img/projeto-agrosense.png';
+
 function Projects(){
 
      const [projects] = useState([
         {
         id: 1,
         title: "Agrosense",
-        image: "../src/assets/img/projeto-agrosense.png",
+        image: Agrosense,
         link: "https://agrosenseweb.vercel.app/",
         repository: "https://github.com/lucassantDev/agrosense-scripts",
         description: "Trabalho Agrosense desenvolvido para apresentação do projeto integrador do 2° semestre da Faculdade Senac. Utilizando React para sua estruturação!"
@@ -15,7 +18,7 @@ function Projects(){
         {
         id: 2,
         title: "Lista de compras",
-        image: "../src/assets/img/projeto-listaDeCompras.png",
+        image: listaCompras,
         link: "https://lucassantdev.github.io/lista-compras/",
         repository: "https://github.com/lucassantDev/lista-compras", 
         description: "Projeto desenvolvido através do curso da Rocketseat Full-Stack. A ideia principal desse projeto era a manipulação do DOM com JavaScritp"
