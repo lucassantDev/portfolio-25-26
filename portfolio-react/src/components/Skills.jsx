@@ -1,8 +1,12 @@
 import '../style/Skills.css';
-import js from '../assets/icon/javascript-icon.PNG'
-import react from '../assets/icon/react-icon.png'
-import tailwindcss from '../assets/icon/tailwindcss.png'
-import figma from '../assets/icon/icons8-figma.svg'
+
+import { FaReact } from "react-icons/fa";
+import { FiFigma } from "react-icons/fi";
+import { SiN8N } from "react-icons/si";
+import { RiPhpFill } from "react-icons/ri";
+import { FaJsSquare } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+
 
 
 function Skills(){
@@ -12,20 +16,28 @@ function Skills(){
                 <h1>Skills</h1>
                 <div className='div-stack '>
                     <div className='stack'>
-                        <img src={js} alt="imagem javascript" />
+                        <FaJsSquare class='icon'/>
                         Javascript
                     </div>
                     <div className='stack'>
-                        <img src={react} alt="imagem React" />
+                        <FaReact class='icon'/>
                         <p>React</p>
                     </div>
                     <div className='stack'>
-                        <img src={tailwindcss} alt="imagem Tailwindcss" />
+                        <RiPhpFill class='icon'/>
+                        <p>PHP</p>
+                    </div>
+                    <div className='stack'>
+                        <SiTailwindcss class='icon'/>
                         Tailwindcss
                     </div>
                     <div className='stack'>
-                        <img src={figma} alt="imagem Figma" className='figma-icon' />
+                        <FiFigma class='icon'/>
                         Figma
+                    </div>
+                    <div className='stack'>
+                        <SiN8N class='icon'/>
+                        N8N
                     </div>
                 </div>
             </section>
