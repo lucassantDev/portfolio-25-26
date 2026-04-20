@@ -16,20 +16,18 @@
 
 .div-stack{
     gap: 20px;
-    width: 80%;
-    height: 80%;
+    width: fit-;
+    border: 1px solid red;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     margin: 10px 0 0 0 ;
     padding-block: 10px;
 }
 
-.div-stack .icon{
-    width: 35px;
-    height: 35px;
-    object-fit: cover;
-    margin: 0 0 15px 0;
+.stack > .icon{
+    font-size: 1rem;
+    color: var(--color01);
 }
 
 .stack{
@@ -37,37 +35,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 350px;
-    height: 120px;
-    max-width: 650px;
-
-    font-weight: bold;
-    font-size: 1.3rem;
+    width: 105px;
+    height: 105px;
+    border-radius: 15px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 490px)  {
-
-    .div-stack{
-        width: 90%;
-    }
+@media screen and (min-width: 320px) and (max-width: 800px)  {
+    .div-stack{width: 90%; height: fit-content;}
 
     .stack{
-        width: 190px;
+        width: 150px;
         font-size: 0.9rem;
     }
-    
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1920px) {
-     .section-skills h1{
-        font-size: 4rem;
-    }
+@media screen and (min-width: 801px) and (max-width: 1920px) {
+    .section-skills h1{font-size: 4rem;}
 
     .div-stack .icon{
         width: 50px;
         height: 50px;
         object-fit: cover;
         margin: 0 0 15px 0;
+    }
+
+    .div-stack{
+        width: 80%;
+        height: fit-content;
     }
 }
